@@ -1,11 +1,60 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ws03_CSS_Advanced</title>
-</head>
-<body>
-    <h1>ws03_CSS_Advanced</h1>
-</body>
+  <head>
+    <title>My First HTML Page</title>
+    <style>
+      h2 {
+        color: #997f61;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <button class="transition-button">Hover me</button>
+    <h1 style="color: #997f61">Kristina Smolenskaia</h1>
+    <p>I am a creative and ambitious person studying in the IT Field</p>
+    <img src="images/My-photo.jpg" alt="A picture of myself" width="200" class="filter-image" />
+<blockquote class="quote">
+        "My theory isn't perfect but it's close" -RHCP Wet Sand.
+      </blockquote>
+    <div class="animation-box"></div>
+    <h2>A list of my hobbies</h2>
+    <ul class="pseudo-list">
+      <li title="Oil paint, watercolour...">Painting</li>
+      <li title="Fantasy and business photos">Photographing</li>
+      <li title="Watering, feeding, repotting...">Taking care of my plants</li>
+      <li title="I prefer classical books and novels">Reading</li>
+      <li title="not that good at this one but i still enjoy it a lot">
+        Playing a guitar
+      </li>
+      <li title="literally anything">Learning something new</li>
+    </ul>
+    <a href="https://ohmygit.org/">My current favourite site Oh My Git!</a>
+    <table>
+      <tr>
+        <th>Ongoing course</th>
+        <th>What i really want to learn</th>
+      </tr>
+      <tr>
+        <td>Web kehittäminen</td>
+        <td>Understanding of github and basics of frontend (...Vim.....)</td>
+      </tr>
+      <tr>
+        <td>Prof. Communication in english</td>
+        <td>pronouncing difficult IT words</td>
+      </tr>
+    </table>
+    <p>Please fill out the form below to get in touch:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"/>
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"/>
+      <br />
+      <br />
+      <input type="submit" value="Submit"/>
+    </form>
+  </body>
 </html>
