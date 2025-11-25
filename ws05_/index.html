@@ -1,11 +1,101 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ws05_</title>
-</head>
+   <title>My First HTML Page</title>
+    <style>
+      h2 {
+        color: #997f61;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#about">Home</a></li>
+        <li><a href="#My bag">My bag</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+</header>
 <body>
-    <h1>ws05_</h1>
-</body>
+    <main>
+  <button class="transition-button">Hover me</button>
+    <h1 style="color: #997f61">Kristina Smolenskaia</h1>
+    <p id="about">I am a creative and ambitious person studying in the IT Field</p>
+    <img src="images/My-photo.jpg" alt="A picture of myself" width="200" class="filter-image" />
+<blockquote class="quote">
+        "My theory isn't perfect but it's close" -RHCP Wet Sand.
+      </blockquote>
+
+<img src="https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg" alt="Responsive Image" class="responsive-image">
+
+    <div class="animation-box"></div>
+    <h2>A list of my hobbies</h2>
+    <ul class="pseudo-list">
+      <li title="Oil paint, watercolour...">Painting</li>
+      <li title="Fantasy and business photos">Photographing</li>
+      <li title="Watering, feeding, repotting...">Taking care of my plants</li>
+      <li title="I prefer classical books and novels">Reading</li>
+      <li title="not that good at this one but i still enjoy it a lot">
+        Playing a guitar
+      </li>
+      <li title="literally anything">Learning something new</li>
+    </ul>
+    </main>
+    <a href="https://ohmygit.org/">My current favourite site Oh My Git!</a>
+    <p id="My bag">What's in my bag</p>
+<div class="responsive-container">
+    <div class="column">Lipliner</div>
+    <div class="column">Chewing gum</div>
+    <div class="column">A lighter</div>
+  </div>
+
+  <div class="media-query-box">Resize the window to see the effect</div>
+
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+  </div>
+
+  <div class="responsive-box">Resize the window to see the effect</div>
+
+    <table>
+      <tr>
+        <th>Ongoing course</th>
+        <th>What i really want to learn</th>
+      </tr>
+      <tr>
+        <td>Web kehittäminen</td>
+        <td>Understanding of github and basics of frontend (...Vim.....)</td>
+      </tr>
+      <tr>
+        <td>Prof. Communication in english</td>
+        <td>pronouncing difficult IT words</td>
+      </tr>
+    </table>
+
+
+    <p id="contact">Please fill out the form below to get in touch:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"/>
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"/>
+      <br />
+      <br />
+      <input type="submit" value="Submit"/>
+    </form>
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+  </body>
 </html>
