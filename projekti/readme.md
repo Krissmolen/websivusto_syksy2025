@@ -1,1 +1,1 @@
-projektityö jne
+projektityö Web sivusto kehittämisen kurssille lopputyönä. Tässä projektissa esitän web sivustojen kehittämisen taitojani jotka sain kussilla sekä samalla tarkastelen kahden mystisen ja mielenkiintoisen taideteoksen samanlaisuuksia ja yhteyksiä
