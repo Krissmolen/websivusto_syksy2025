@@ -1,6 +1,4 @@
 
-
-
 .btn {
   background-color: rgb(165, 115, 58);
   border: none;
@@ -32,7 +30,7 @@
 
 /*hero bg*/
 .hero-bg {
-    background-image: url("../images/Le\ Pater/mind.jpeg") ;
+    background-image: url("../images/Le\ Pater/angel.jpeg") ;
     background-size: 150%;
     background-position: 50% 15%;
     background-attachment: fixed;
@@ -52,8 +50,7 @@
 
 
 /* centered content */
-.hero-text {
-  background-color: rgba(158, 144, 126, 0.65);
+.hero-content {
     padding: 30px;
     z-index: 10;
 }
@@ -100,27 +97,5 @@
     background-color: var(--neon);
     border-color: var(--neon);
     color: #000;
-}
-
-
-
-.card {
-  margin-top: 50px;
-  margin-bottom: 190px;
-}
-
-#Le-pater-card .card-img-top {
-  
-  object-position: 50% 60%;
-  height: 200px;
-  object-fit: cover;
-  
-
-}
-#Muldashev-card .card-img-top {
-  object-position: 50% 20%;
-  height: 200px;
-  object-fit: cover;
-
 }
 
