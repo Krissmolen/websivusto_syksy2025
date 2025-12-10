@@ -55,7 +55,7 @@
     z-index: 10;
 }
 
-/* Titles */
+/* titles */
 .title {
     font-family:serif, cursive;
     font-size: 50px;
@@ -78,11 +78,13 @@
 .lead-text {
     color: white;
     font-size: 18px;
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
+    margin-bottom: 200px;
 }
 
-/* button */
+/*button*/
+
 .hero-btn {
     padding: 12px 40px;
     margin: 50px;
@@ -98,4 +100,3 @@
     border-color: var(--neon);
     color: #000;
 }
-
