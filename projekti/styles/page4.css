@@ -99,3 +99,75 @@
     color: #000;
 }
 
+
+
+/* ---------- Form Container ---------- */
+.form-container {
+    max-width: 600px;  
+    max-height: fit-content;         
+    margin: 50px auto;          
+    padding: 30px 25px;
+    background-color: #f7f1e1;  
+    border-radius: 15px;        
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+    transform: translateY(-5px);  
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- llabels ---------- */
+.form-container .form-label {
+    font-weight: 500;
+    color: #6b4f3a;  
+}
+
+/* ---------- Inputs ---------- */
+.form-container .form-control {
+    border-radius: 10px;
+    border: 1px solid #e0d8c0;
+    background-color: #fff8f0; 
+    padding: 10px 12px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container .form-control:focus {
+    border-color: #c99f6b;
+    box-shadow: 0 0 5px rgba(201, 159, 107, 0.4);
+}
+
+
+/* ---------- Submit Button ---------- */
+.form-container .btn-primary {
+    background-color: #c99f6b;
+    border-color: #b88f5a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #b88f5a;
+    border-color: #a47a45;
+}
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6 {
+    transition: transform 0.5s ease;
+}
+
+#card1:hover,
+#card2:hover,
+#card3:hover,
+#card4:hover,
+#card5:hover,
+#card6 {
+    transform: translateY(-10px);
+}
